@@ -1,0 +1,52 @@
+.markdown-input {
+    background-color: #ffffff; /* Couleur de fond plus claire */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Ombre subtile pour effet de profondeur */
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .markdown-input:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Ombre plus prononcée au survol */
+  }
+  
+  .input-title {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1.1em; /* Taille de police légèrement plus grande */
+    transition: border-color 0.3s;
+  }
+  
+  .input-title:focus {
+    border-color: #007bff; /* Bordure colorée en bleu lors de la saisie */
+  }
+  
+  .input-content {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: none;
+    font-size: 1em;
+    min-height: 200px; /* S'assurer que le textarea a une taille correcte */
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Donne une forme plus arrondie au bouton */
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* Léger agrandissement lors du survol */
+  }
